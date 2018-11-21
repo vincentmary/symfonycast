@@ -11,6 +11,10 @@ web_profiler:
     toolbar: true
     intercept_redirects: false
 
+parameters:
+    locale: en
+    cache_type: array
+
 monolog:
     handlers:
         main:
