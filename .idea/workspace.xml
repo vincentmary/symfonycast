@@ -1,7 +1,240 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="c8425b7c-8d93-49c6-8ef1-eeeae173f305" name="Default Changelist" comment="" />
+    <list default="true" id="c8425b7c-8d93-49c6-8ef1-eeeae173f305" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/Resources/views/genus/show.html.twig" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/code-symfony3-fundamentals/README.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/code-symfony3-fundamentals/finish/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/code-symfony3-fundamentals/finish/LICENSE" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/code-symfony3-fundamentals/finish/README.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/code-symfony3-fundamentals/finish/app/.htaccess" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/code-symfony3-fundamentals/finish/app/AppCache.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/code-symfony3-fundamentals/finish/app/AppKernel.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/code-symfony3-fundamentals/finish/app/Resources/views/base.html.twig" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/code-symfony3-fundamentals/finish/app/Resources/views/genus/show.html.twig" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/code-symfony3-fundamentals/finish/app/Resources/views/main/homepage.html.twig" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/code-symfony3-fundamentals/finish/app/autoload.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/code-symfony3-fundamentals/finish/app/config/config.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/code-symfony3-fundamentals/finish/app/config/config_dev.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/code-symfony3-fundamentals/finish/app/config/config_prod.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/code-symfony3-fundamentals/finish/app/config/config_test.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/code-symfony3-fundamentals/finish/app/config/parameters.yml.dist" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/code-symfony3-fundamentals/finish/app/config/routing.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/code-symfony3-fundamentals/finish/app/config/routing_dev.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/code-symfony3-fundamentals/finish/app/config/security.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/code-symfony3-fundamentals/finish/app/config/services.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/code-symfony3-fundamentals/finish/bin/console" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/code-symfony3-fundamentals/finish/bin/symfony_requirements" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/code-symfony3-fundamentals/finish/composer.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/code-symfony3-fundamentals/finish/composer.lock" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/code-symfony3-fundamentals/finish/phpunit.xml.dist" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/code-symfony3-fundamentals/finish/src/.htaccess" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/code-symfony3-fundamentals/finish/src/AppBundle/AppBundle.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/code-symfony3-fundamentals/finish/src/AppBundle/Controller/GenusController.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/code-symfony3-fundamentals/finish/src/AppBundle/Controller/MainController.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/code-symfony3-fundamentals/finish/tests/AppBundle/Controller/DefaultControllerTest.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/code-symfony3-fundamentals/finish/tutorial/MessageManager.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/code-symfony3-fundamentals/finish/tutorial/app/Resources/views/base.html.twig" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/code-symfony3-fundamentals/finish/tutorial/app/Resources/views/genus/show.html.twig" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/code-symfony3-fundamentals/finish/tutorial/web/css/styles.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/code-symfony3-fundamentals/finish/tutorial/web/images/aquanote-logo.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/code-symfony3-fundamentals/finish/tutorial/web/images/leanna.jpeg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/code-symfony3-fundamentals/finish/tutorial/web/images/octopus-rubescens.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/code-symfony3-fundamentals/finish/tutorial/web/images/ryan.jpeg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/code-symfony3-fundamentals/finish/tutorial/web/js/main.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/code-symfony3-fundamentals/finish/tutorial/web/js/notes.react.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/code-symfony3-fundamentals/finish/tutorial/web/vendor/bootstrap/css/bootstrap-theme.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/code-symfony3-fundamentals/finish/tutorial/web/vendor/bootstrap/css/bootstrap-theme.css.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/code-symfony3-fundamentals/finish/tutorial/web/vendor/bootstrap/css/bootstrap-theme.min.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/code-symfony3-fundamentals/finish/tutorial/web/vendor/bootstrap/css/bootstrap-theme.min.css.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/code-symfony3-fundamentals/finish/tutorial/web/vendor/bootstrap/css/bootstrap.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/code-symfony3-fundamentals/finish/tutorial/web/vendor/bootstrap/css/bootstrap.css.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/code-symfony3-fundamentals/finish/tutorial/web/vendor/bootstrap/css/bootstrap.min.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/code-symfony3-fundamentals/finish/tutorial/web/vendor/bootstrap/css/bootstrap.min.css.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/code-symfony3-fundamentals/finish/tutorial/web/vendor/bootstrap/fonts/glyphicons-halflings-regular.eot" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/code-symfony3-fundamentals/finish/tutorial/web/vendor/bootstrap/fonts/glyphicons-halflings-regular.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/code-symfony3-fundamentals/finish/tutorial/web/vendor/bootstrap/fonts/glyphicons-halflings-regular.ttf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/code-symfony3-fundamentals/finish/tutorial/web/vendor/bootstrap/fonts/glyphicons-halflings-regular.woff" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/code-symfony3-fundamentals/finish/tutorial/web/vendor/bootstrap/fonts/glyphicons-halflings-regular.woff2" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/code-symfony3-fundamentals/finish/tutorial/web/vendor/bootstrap/js/bootstrap.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/code-symfony3-fundamentals/finish/tutorial/web/vendor/bootstrap/js/bootstrap.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/code-symfony3-fundamentals/finish/tutorial/web/vendor/bootstrap/js/npm.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/code-symfony3-fundamentals/finish/tutorial/web/vendor/fontawesome/css/font-awesome.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/code-symfony3-fundamentals/finish/tutorial/web/vendor/fontawesome/css/font-awesome.min.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/code-symfony3-fundamentals/finish/tutorial/web/vendor/fontawesome/fonts/FontAwesome.otf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/code-symfony3-fundamentals/finish/tutorial/web/vendor/fontawesome/fonts/fontawesome-webfont.eot" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/code-symfony3-fundamentals/finish/tutorial/web/vendor/fontawesome/fonts/fontawesome-webfont.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/code-symfony3-fundamentals/finish/tutorial/web/vendor/fontawesome/fonts/fontawesome-webfont.ttf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/code-symfony3-fundamentals/finish/tutorial/web/vendor/fontawesome/fonts/fontawesome-webfont.woff" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/code-symfony3-fundamentals/finish/tutorial/web/vendor/fontawesome/fonts/fontawesome-webfont.woff2" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/code-symfony3-fundamentals/finish/var/SymfonyRequirements.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/code-symfony3-fundamentals/finish/var/cache/.gitkeep" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/code-symfony3-fundamentals/finish/var/logs/.gitkeep" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/code-symfony3-fundamentals/finish/var/sessions/.gitkeep" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/code-symfony3-fundamentals/finish/web/.htaccess" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/code-symfony3-fundamentals/finish/web/app.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/code-symfony3-fundamentals/finish/web/app_dev.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/code-symfony3-fundamentals/finish/web/apple-touch-icon.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/code-symfony3-fundamentals/finish/web/config.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/code-symfony3-fundamentals/finish/web/css/styles.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/code-symfony3-fundamentals/finish/web/favicon.ico" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/code-symfony3-fundamentals/finish/web/images/aquanote-logo.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/code-symfony3-fundamentals/finish/web/images/leanna.jpeg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/code-symfony3-fundamentals/finish/web/images/octopus-rubescens.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/code-symfony3-fundamentals/finish/web/images/ryan.jpeg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/code-symfony3-fundamentals/finish/web/js/main.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/code-symfony3-fundamentals/finish/web/js/notes.react.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/code-symfony3-fundamentals/finish/web/robots.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/code-symfony3-fundamentals/finish/web/vendor/bootstrap/css/bootstrap-theme.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/code-symfony3-fundamentals/finish/web/vendor/bootstrap/css/bootstrap-theme.css.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/code-symfony3-fundamentals/finish/web/vendor/bootstrap/css/bootstrap-theme.min.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/code-symfony3-fundamentals/finish/web/vendor/bootstrap/css/bootstrap-theme.min.css.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/code-symfony3-fundamentals/finish/web/vendor/bootstrap/css/bootstrap.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/code-symfony3-fundamentals/finish/web/vendor/bootstrap/css/bootstrap.css.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/code-symfony3-fundamentals/finish/web/vendor/bootstrap/css/bootstrap.min.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/code-symfony3-fundamentals/finish/web/vendor/bootstrap/css/bootstrap.min.css.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/code-symfony3-fundamentals/finish/web/vendor/bootstrap/fonts/glyphicons-halflings-regular.eot" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/code-symfony3-fundamentals/finish/web/vendor/bootstrap/fonts/glyphicons-halflings-regular.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/code-symfony3-fundamentals/finish/web/vendor/bootstrap/fonts/glyphicons-halflings-regular.ttf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/code-symfony3-fundamentals/finish/web/vendor/bootstrap/fonts/glyphicons-halflings-regular.woff" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/code-symfony3-fundamentals/finish/web/vendor/bootstrap/fonts/glyphicons-halflings-regular.woff2" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/code-symfony3-fundamentals/finish/web/vendor/bootstrap/js/bootstrap.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/code-symfony3-fundamentals/finish/web/vendor/bootstrap/js/bootstrap.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/code-symfony3-fundamentals/finish/web/vendor/bootstrap/js/npm.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/code-symfony3-fundamentals/finish/web/vendor/fontawesome/css/font-awesome.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/code-symfony3-fundamentals/finish/web/vendor/fontawesome/css/font-awesome.min.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/code-symfony3-fundamentals/finish/web/vendor/fontawesome/fonts/FontAwesome.otf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/code-symfony3-fundamentals/finish/web/vendor/fontawesome/fonts/fontawesome-webfont.eot" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/code-symfony3-fundamentals/finish/web/vendor/fontawesome/fonts/fontawesome-webfont.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/code-symfony3-fundamentals/finish/web/vendor/fontawesome/fonts/fontawesome-webfont.ttf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/code-symfony3-fundamentals/finish/web/vendor/fontawesome/fonts/fontawesome-webfont.woff" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/code-symfony3-fundamentals/finish/web/vendor/fontawesome/fonts/fontawesome-webfont.woff2" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/code-symfony3-fundamentals/start/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/code-symfony3-fundamentals/start/LICENSE" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/code-symfony3-fundamentals/start/README.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/code-symfony3-fundamentals/start/app/.htaccess" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/code-symfony3-fundamentals/start/app/AppCache.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/code-symfony3-fundamentals/start/app/AppKernel.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/code-symfony3-fundamentals/start/app/Resources/views/base.html.twig" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/code-symfony3-fundamentals/start/app/Resources/views/genus/show.html.twig" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/code-symfony3-fundamentals/start/app/autoload.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/code-symfony3-fundamentals/start/app/config/config.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/code-symfony3-fundamentals/start/app/config/config_dev.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/code-symfony3-fundamentals/start/app/config/config_prod.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/code-symfony3-fundamentals/start/app/config/config_test.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/code-symfony3-fundamentals/start/app/config/parameters.yml.dist" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/code-symfony3-fundamentals/start/app/config/routing.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/code-symfony3-fundamentals/start/app/config/routing_dev.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/code-symfony3-fundamentals/start/app/config/security.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/code-symfony3-fundamentals/start/app/config/services.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/code-symfony3-fundamentals/start/bin/console" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/code-symfony3-fundamentals/start/bin/symfony_requirements" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/code-symfony3-fundamentals/start/composer.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/code-symfony3-fundamentals/start/composer.lock" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/code-symfony3-fundamentals/start/phpunit.xml.dist" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/code-symfony3-fundamentals/start/src/.htaccess" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/code-symfony3-fundamentals/start/src/AppBundle/AppBundle.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/code-symfony3-fundamentals/start/src/AppBundle/Controller/GenusController.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/code-symfony3-fundamentals/start/tests/AppBundle/Controller/DefaultControllerTest.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/code-symfony3-fundamentals/start/tutorial/MessageManager.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/code-symfony3-fundamentals/start/tutorial/app/Resources/views/base.html.twig" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/code-symfony3-fundamentals/start/tutorial/app/Resources/views/genus/show.html.twig" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/code-symfony3-fundamentals/start/tutorial/web/css/styles.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/code-symfony3-fundamentals/start/tutorial/web/images/aquanote-logo.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/code-symfony3-fundamentals/start/tutorial/web/images/leanna.jpeg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/code-symfony3-fundamentals/start/tutorial/web/images/octopus-rubescens.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/code-symfony3-fundamentals/start/tutorial/web/images/ryan.jpeg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/code-symfony3-fundamentals/start/tutorial/web/js/main.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/code-symfony3-fundamentals/start/tutorial/web/js/notes.react.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/code-symfony3-fundamentals/start/tutorial/web/vendor/bootstrap/css/bootstrap-theme.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/code-symfony3-fundamentals/start/tutorial/web/vendor/bootstrap/css/bootstrap-theme.css.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/code-symfony3-fundamentals/start/tutorial/web/vendor/bootstrap/css/bootstrap-theme.min.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/code-symfony3-fundamentals/start/tutorial/web/vendor/bootstrap/css/bootstrap-theme.min.css.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/code-symfony3-fundamentals/start/tutorial/web/vendor/bootstrap/css/bootstrap.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/code-symfony3-fundamentals/start/tutorial/web/vendor/bootstrap/css/bootstrap.css.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/code-symfony3-fundamentals/start/tutorial/web/vendor/bootstrap/css/bootstrap.min.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/code-symfony3-fundamentals/start/tutorial/web/vendor/bootstrap/css/bootstrap.min.css.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/code-symfony3-fundamentals/start/tutorial/web/vendor/bootstrap/fonts/glyphicons-halflings-regular.eot" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/code-symfony3-fundamentals/start/tutorial/web/vendor/bootstrap/fonts/glyphicons-halflings-regular.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/code-symfony3-fundamentals/start/tutorial/web/vendor/bootstrap/fonts/glyphicons-halflings-regular.ttf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/code-symfony3-fundamentals/start/tutorial/web/vendor/bootstrap/fonts/glyphicons-halflings-regular.woff" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/code-symfony3-fundamentals/start/tutorial/web/vendor/bootstrap/fonts/glyphicons-halflings-regular.woff2" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/code-symfony3-fundamentals/start/tutorial/web/vendor/bootstrap/js/bootstrap.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/code-symfony3-fundamentals/start/tutorial/web/vendor/bootstrap/js/bootstrap.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/code-symfony3-fundamentals/start/tutorial/web/vendor/bootstrap/js/npm.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/code-symfony3-fundamentals/start/tutorial/web/vendor/fontawesome/css/font-awesome.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/code-symfony3-fundamentals/start/tutorial/web/vendor/fontawesome/css/font-awesome.min.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/code-symfony3-fundamentals/start/tutorial/web/vendor/fontawesome/fonts/FontAwesome.otf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/code-symfony3-fundamentals/start/tutorial/web/vendor/fontawesome/fonts/fontawesome-webfont.eot" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/code-symfony3-fundamentals/start/tutorial/web/vendor/fontawesome/fonts/fontawesome-webfont.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/code-symfony3-fundamentals/start/tutorial/web/vendor/fontawesome/fonts/fontawesome-webfont.ttf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/code-symfony3-fundamentals/start/tutorial/web/vendor/fontawesome/fonts/fontawesome-webfont.woff" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/code-symfony3-fundamentals/start/tutorial/web/vendor/fontawesome/fonts/fontawesome-webfont.woff2" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/code-symfony3-fundamentals/start/var/SymfonyRequirements.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/code-symfony3-fundamentals/start/var/cache/.gitkeep" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/code-symfony3-fundamentals/start/var/logs/.gitkeep" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/code-symfony3-fundamentals/start/var/sessions/.gitkeep" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/code-symfony3-fundamentals/start/web/.htaccess" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/code-symfony3-fundamentals/start/web/app.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/code-symfony3-fundamentals/start/web/app_dev.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/code-symfony3-fundamentals/start/web/apple-touch-icon.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/code-symfony3-fundamentals/start/web/config.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/code-symfony3-fundamentals/start/web/css/styles.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/code-symfony3-fundamentals/start/web/favicon.ico" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/code-symfony3-fundamentals/start/web/images/aquanote-logo.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/code-symfony3-fundamentals/start/web/images/leanna.jpeg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/code-symfony3-fundamentals/start/web/images/octopus-rubescens.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/code-symfony3-fundamentals/start/web/images/ryan.jpeg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/code-symfony3-fundamentals/start/web/js/main.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/code-symfony3-fundamentals/start/web/js/notes.react.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/code-symfony3-fundamentals/start/web/robots.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/code-symfony3-fundamentals/start/web/vendor/bootstrap/css/bootstrap-theme.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/code-symfony3-fundamentals/start/web/vendor/bootstrap/css/bootstrap-theme.css.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/code-symfony3-fundamentals/start/web/vendor/bootstrap/css/bootstrap-theme.min.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/code-symfony3-fundamentals/start/web/vendor/bootstrap/css/bootstrap-theme.min.css.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/code-symfony3-fundamentals/start/web/vendor/bootstrap/css/bootstrap.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/code-symfony3-fundamentals/start/web/vendor/bootstrap/css/bootstrap.css.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/code-symfony3-fundamentals/start/web/vendor/bootstrap/css/bootstrap.min.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/code-symfony3-fundamentals/start/web/vendor/bootstrap/css/bootstrap.min.css.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/code-symfony3-fundamentals/start/web/vendor/bootstrap/fonts/glyphicons-halflings-regular.eot" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/code-symfony3-fundamentals/start/web/vendor/bootstrap/fonts/glyphicons-halflings-regular.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/code-symfony3-fundamentals/start/web/vendor/bootstrap/fonts/glyphicons-halflings-regular.ttf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/code-symfony3-fundamentals/start/web/vendor/bootstrap/fonts/glyphicons-halflings-regular.woff" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/code-symfony3-fundamentals/start/web/vendor/bootstrap/fonts/glyphicons-halflings-regular.woff2" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/code-symfony3-fundamentals/start/web/vendor/bootstrap/js/bootstrap.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/code-symfony3-fundamentals/start/web/vendor/bootstrap/js/bootstrap.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/code-symfony3-fundamentals/start/web/vendor/bootstrap/js/npm.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/code-symfony3-fundamentals/start/web/vendor/fontawesome/css/font-awesome.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/code-symfony3-fundamentals/start/web/vendor/fontawesome/css/font-awesome.min.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/code-symfony3-fundamentals/start/web/vendor/fontawesome/fonts/FontAwesome.otf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/code-symfony3-fundamentals/start/web/vendor/fontawesome/fonts/fontawesome-webfont.eot" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/code-symfony3-fundamentals/start/web/vendor/fontawesome/fonts/fontawesome-webfont.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/code-symfony3-fundamentals/start/web/vendor/fontawesome/fonts/fontawesome-webfont.ttf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/code-symfony3-fundamentals/start/web/vendor/fontawesome/fonts/fontawesome-webfont.woff" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/code-symfony3-fundamentals/start/web/vendor/fontawesome/fonts/fontawesome-webfont.woff2" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/php.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/php.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/symfony2.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/symfony2.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/symfony_project.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/symfony_project.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/AppKernel.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/AppKernel.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/Resources/views/base.html.twig" beforeDir="false" afterPath="$PROJECT_DIR$/app/Resources/views/base.html.twig" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/config/config.yml" beforeDir="false" afterPath="$PROJECT_DIR$/app/config/config.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/config/config_dev.yml" beforeDir="false" afterPath="$PROJECT_DIR$/app/config/config_dev.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/config/config_prod.yml" beforeDir="false" afterPath="$PROJECT_DIR$/app/config/config_prod.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/config/parameters.yml.dist" beforeDir="false" afterPath="$PROJECT_DIR$/app/config/parameters.yml.dist" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/config/routing.yml" beforeDir="false" afterPath="$PROJECT_DIR$/app/config/routing.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/config/routing_dev.yml" beforeDir="false" afterPath="$PROJECT_DIR$/app/config/routing_dev.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/config/security.yml" beforeDir="false" afterPath="$PROJECT_DIR$/app/config/security.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/config/services.yml" beforeDir="false" afterPath="$PROJECT_DIR$/app/config/services.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/composer.json" beforeDir="false" afterPath="$PROJECT_DIR$/composer.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/composer.lock" beforeDir="false" afterPath="$PROJECT_DIR$/composer.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/AppBundle/Controller/GenusController.php" beforeDir="false" afterPath="$PROJECT_DIR$/src/AppBundle/Controller/GenusController.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/app.php" beforeDir="false" afterPath="$PROJECT_DIR$/web/app.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/app_dev.php" beforeDir="false" afterPath="$PROJECT_DIR$/web/app_dev.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/apple-touch-icon.png" beforeDir="false" afterPath="$PROJECT_DIR$/web/apple-touch-icon.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/robots.txt" beforeDir="false" afterPath="$PROJECT_DIR$/web/robots.txt" afterDir="false" />
+    </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -49,69 +282,98 @@
         </counts>
       </usages-collector>
     </session>
+    <session id="-1331004809">
+      <usages-collector id="statistics.lifecycle.project">
+        <counts>
+          <entry key="project.closed" value="1" />
+          <entry key="project.open.time.4" value="1" />
+          <entry key="project.open.time.7" value="2" />
+          <entry key="project.opened" value="3" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.extensions.edit">
+        <counts>
+          <entry key="php" value="741" />
+          <entry key="twig" value="225" />
+          <entry key="yml" value="124" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.types.edit">
+        <counts>
+          <entry key="PHP" value="741" />
+          <entry key="Twig" value="225" />
+          <entry key="YAML" value="124" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.extensions.open">
+        <counts>
+          <entry key="dist" value="1" />
+          <entry key="json" value="2" />
+          <entry key="php" value="9" />
+          <entry key="twig" value="5" />
+          <entry key="yml" value="11" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.types.open">
+        <counts>
+          <entry key="JSON" value="2" />
+          <entry key="PHP" value="9" />
+          <entry key="PLAIN_TEXT" value="1" />
+          <entry key="Twig" value="5" />
+          <entry key="YAML" value="11" />
+        </counts>
+      </usages-collector>
+    </session>
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="450">
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/web/app.php">
+        <entry file="file://$PROJECT_DIR$/src/AppBundle/Controller/GenusController.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="260">
-              <caret line="10" column="29" selection-end-line="21" />
+            <state relative-caret-position="414">
+              <caret line="26" column="37" selection-start-line="26" selection-start-column="37" selection-end-line="26" selection-end-column="37" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/AppBundle/Controller/GenusController.php">
+        <entry file="file://$PROJECT_DIR$/app/Resources/views/genus/show.html.twig">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="260">
-              <caret line="15" column="23" selection-start-line="15" selection-start-column="23" selection-end-line="15" selection-end-column="23" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/vendor/sensio/framework-extra-bundle/Configuration/Route.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="267">
-              <caret line="23" column="6" selection-start-line="23" selection-start-column="6" selection-end-line="23" selection-end-column="6" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/web/app_dev.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="182">
-              <caret line="8" column="14" selection-start-line="8" selection-start-column="14" selection-end-line="8" selection-end-column="14" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/app/config/config_dev.yml">
-          <provider selected="true" editor-type-id="text-editor">
-            <state>
-              <caret selection-end-line="37" selection-end-column="24" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/AppBundle/AppBundle.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="234">
-              <caret line="9" selection-start-line="9" selection-end-line="9" />
+            <state relative-caret-position="416">
+              <caret line="16" column="36" selection-start-line="16" selection-start-column="36" selection-end-line="16" selection-end-column="36" />
+              <folding>
+                <element signature="e#12#26#0#Twig" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
       </file>
     </leaf>
   </component>
+  <component name="FindInProjectRecents">
+    <findStrings>
+      <find>docktrine</find>
+      <find>markdown.parse</find>
+      <find>cache_type</find>
+      <find>parser</find>
+    </findStrings>
+    <dirStrings>
+      <dir>C:\Users\vmary\projectsymfonycast\code-symfony3-fundamentals</dir>
+    </dirStrings>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
+        <option value="$PROJECT_DIR$/app/Resources/views/base.html.twig" />
+        <option value="$PROJECT_DIR$/code-symfony3-fundamentals/start/app/Resources/views/genus/show.html.twig" />
+        <option value="$PROJECT_DIR$/code-symfony3-fundamentals/start/src/AppBundle/Controller/GenusController.php" />
+        <option value="$PROJECT_DIR$/app/config/config.yml" />
+        <option value="$PROJECT_DIR$/app/AppKernel.php" />
         <option value="$PROJECT_DIR$/src/AppBundle/Controller/GenusController.php" />
+        <option value="$PROJECT_DIR$/app/Resources/views/genus/show.html.twig" />
       </list>
     </option>
   </component>
@@ -166,57 +428,57 @@
       <path value="$PROJECT_DIR$/vendor/symfony/monolog-bundle" />
       <path value="$PROJECT_DIR$/vendor/symfony/polyfill-php70" />
       <path value="$PROJECT_DIR$/vendor/symfony/phpunit-bridge" />
+      <path value="$PROJECT_DIR$/vendor/doctrine/persistence" />
+      <path value="$PROJECT_DIR$/vendor/doctrine/event-manager" />
+      <path value="$PROJECT_DIR$/vendor/doctrine/reflection" />
+      <path value="$PROJECT_DIR$/vendor/michelf/php-markdown" />
+      <path value="$PROJECT_DIR$/vendor/knplabs/knp-markdown-bundle" />
     </include_path>
   </component>
   <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="1911" />
-    <option name="y" value="-69" />
+    <option name="x" value="-9" />
+    <option name="y" value="-9" />
     <option name="width" value="1938" />
     <option name="height" value="1064" />
+  </component>
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="1" id="Add" />
   </component>
   <component name="ProjectView">
     <navigator proportions="" version="1">
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
             <path>
-              <item name="symfony_project" type="b2602c69:ProjectViewProjectNode" />
-              <item name="symfony_project" type="462c0819:PsiDirectoryNode" />
+              <item name="projectsymfonycast" type="b2602c69:ProjectViewProjectNode" />
+              <item name="projectsymfonycast" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
-              <item name="symfony_project" type="b2602c69:ProjectViewProjectNode" />
-              <item name="symfony_project" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="symfony_project" type="b2602c69:ProjectViewProjectNode" />
-              <item name="symfony_project" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="AppBundle" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="symfony_project" type="b2602c69:ProjectViewProjectNode" />
-              <item name="symfony_project" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="AppBundle" type="462c0819:PsiDirectoryNode" />
-              <item name="Controller" type="462c0819:PsiDirectoryNode" />
+              <item name="projectsymfonycast" type="b2602c69:ProjectViewProjectNode" />
+              <item name="projectsymfonycast" type="462c0819:PsiDirectoryNode" />
+              <item name="var" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
         </subPane>
       </pane>
-      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/code-symfony3-fundamentals" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
-    <property name="settings.editor.selected.configurable" value="Symfony2.SettingsForm" />
+    <property name="settings.editor.selected.configurable" value="preferences.keymap" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\vmary\projectsymfonycast\app\Resources\views\genus" />
+    </key>
   </component>
   <component name="RunDashboard">
     <option name="ruleStates">
@@ -243,16 +505,20 @@
       <workItem from="1538486115565" duration="278000" />
       <workItem from="1538488144582" duration="1214000" />
       <workItem from="1542291795628" duration="1687000" />
+      <workItem from="1542293572227" duration="1014000" />
+      <workItem from="1542294604594" duration="4409000" />
+      <workItem from="1542621723914" duration="7440000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="3179000" />
+    <option name="totallyTimeSpent" value="16042000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="1911" y="-69" width="1938" height="1098" extended-state="6" />
+    <frame x="-9" y="-9" width="1938" height="1064" extended-state="6" />
+    <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.2583784" />
+      <window_info content_ui="combo" id="Project" order="0" weight="0.43675676" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
@@ -265,13 +531,34 @@
       <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
       <window_info anchor="bottom" id="Database Changes" order="8" show_stripe_button="false" />
       <window_info anchor="bottom" id="Version Control" order="9" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Terminal" order="10" visible="true" weight="0.31712708" />
+      <window_info anchor="bottom" id="Terminal" order="10" weight="0.33102652" />
       <window_info anchor="bottom" id="Event Log" order="11" side_tool="true" />
       <window_info anchor="right" id="Commander" order="0" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
       <window_info anchor="right" id="Database" order="3" />
     </layout>
+    <layout-to-restore>
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.43675676" />
+      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
+      <window_info id="Favorites" order="2" side_tool="true" />
+      <window_info anchor="bottom" id="Message" order="0" />
+      <window_info anchor="bottom" id="Find" order="1" />
+      <window_info anchor="bottom" id="Run" order="2" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
+      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
+      <window_info anchor="bottom" id="TODO" order="6" />
+      <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Database Changes" order="8" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Version Control" order="9" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Terminal" order="10" weight="0.33102652" />
+      <window_info anchor="bottom" id="Event Log" order="11" side_tool="true" />
+      <window_info anchor="right" id="Commander" order="0" weight="0.4" />
+      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+      <window_info anchor="right" id="Database" order="3" />
+    </layout-to-restore>
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="1" />
@@ -291,6 +578,20 @@
     </breakpoint-manager>
   </component>
   <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/web/app.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="260">
+          <caret line="10" column="29" selection-end-line="21" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/vendor/sensio/framework-extra-bundle/Configuration/Route.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="416">
+          <caret line="23" column="6" selection-start-line="23" selection-start-column="6" selection-end-line="23" selection-end-column="6" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/web/app_dev.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="182">
@@ -305,19 +606,63 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/web/app.php">
+    <entry file="file://$PROJECT_DIR$/vendor/symfony/symfony/src/Symfony/Bundle/FrameworkBundle/Controller/ControllerTrait.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="260">
-          <caret line="10" column="29" selection-end-line="21" />
+        <state relative-caret-position="6838">
+          <caret line="285" column="56" selection-start-line="285" selection-start-column="56" selection-end-line="285" selection-end-column="56" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/vendor/sensio/framework-extra-bundle/Configuration/Route.php">
+    <entry file="file://$PROJECT_DIR$/app/config/routing.yml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="267">
-          <caret line="23" column="6" selection-start-line="23" selection-start-column="6" selection-end-line="23" selection-end-column="6" />
+        <state relative-caret-position="78">
+          <caret line="3" lean-forward="true" selection-start-line="3" selection-end-line="3" />
         </state>
       </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/code-symfony3-fundamentals/start/app/Resources/views/genus/show.html.twig">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="364">
+          <caret line="14" column="23" selection-start-line="14" selection-start-column="20" selection-end-line="14" selection-end-column="23" />
+          <folding>
+            <element signature="e#12#26#0#Twig" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/Resources/views/base.html.twig">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="234">
+          <caret line="9" column="101" selection-start-line="9" selection-start-column="101" selection-end-line="9" selection-end-column="101" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/code-symfony3-fundamentals/start/src/AppBundle/Controller/GenusController.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="286">
+          <caret line="18" column="33" lean-forward="true" selection-start-line="18" selection-start-column="33" selection-end-line="18" selection-end-column="33" />
+          <folding>
+            <element signature="e#491#513#0#PHP" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/config/config.yml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="234">
+          <caret line="9" column="21" selection-start-line="9" selection-start-column="21" selection-end-line="9" selection-end-column="21" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/code-symfony3-fundamentals/finish/app/config/config.yml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="565">
+          <caret line="68" column="29" selection-start-line="68" selection-start-column="19" selection-end-line="68" selection-end-column="29" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/code-symfony3-fundamentals/finish/app/config/config_test.yml">
+      <provider selected="true" editor-type-id="text-editor" />
     </entry>
     <entry file="file://$PROJECT_DIR$/src/AppBundle/AppBundle.php">
       <provider selected="true" editor-type-id="text-editor">
@@ -326,10 +671,75 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/code-symfony3-fundamentals/finish/app/config/services.yml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="130">
+          <caret line="5" column="9" selection-start-line="5" selection-start-column="9" selection-end-line="5" selection-end-column="9" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/code-symfony3-fundamentals/finish/app/config/config_prod.yml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-59" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/code-symfony3-fundamentals/finish/app/config/parameters.yml.dist">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/code-symfony3-fundamentals/finish/app/config/routing.yml">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/code-symfony3-fundamentals/finish/app/config/routing_dev.yml">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/code-symfony3-fundamentals/finish/app/config/security.yml">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/composer.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="446">
+          <caret line="66" column="33" selection-start-line="66" selection-start-column="33" selection-end-line="66" selection-end-column="33" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/AppKernel.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="494">
+          <caret line="19" column="63" selection-start-line="19" selection-start-column="63" selection-end-line="19" selection-end-column="63" />
+          <folding>
+            <element signature="e#7#47#0#PHP" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/code-symfony3-fundamentals/finish/src/AppBundle/Controller/GenusController.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="442">
+          <caret line="27" column="32" selection-start-line="27" selection-start-column="32" selection-end-line="27" selection-end-column="32" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/code-symfony3-fundamentals/finish/app/config/config_dev.yml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-501">
+          <caret line="4" column="21" selection-start-line="4" selection-start-column="4" selection-end-line="4" selection-end-column="21" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/AppBundle/Controller/GenusController.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="260">
-          <caret line="15" column="23" selection-start-line="15" selection-start-column="23" selection-end-line="15" selection-end-column="23" />
+        <state relative-caret-position="414">
+          <caret line="26" column="37" selection-start-line="26" selection-start-column="37" selection-end-line="26" selection-end-column="37" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/Resources/views/genus/show.html.twig">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="416">
+          <caret line="16" column="36" selection-start-line="16" selection-start-column="36" selection-end-line="16" selection-end-column="36" />
+          <folding>
+            <element signature="e#12#26#0#Twig" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
