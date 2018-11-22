@@ -11,12 +11,28 @@ use Symfony\Component\HttpFoundation\JsonResponse;
 class GenusController extends Controller
 {
     /**
+     * @Route("/genus")
+     */
+    public function listAction()
+    {
+        $em = $this->getDoctrine()->getManager();
+        $genuses = $em->getRepository('AppBundle:Genus')
+            ->findAllPublishedOrderedBySize();
+
+        return $this->render('genus/list.html.twig', [
+            'genuses' => $genuses
+        ]);
+
+    }
+
+    /**
      * @Route("/genus/new")
      */
     public function newAction()
     {
         $genus = new Genus();
         $genus->setName('Octopus'.rand(1,100));
+        $genus->setSpeciesCount(rand(1, 100000));
 
         $em = $this->getDoctrine()->getManager();
         $em->persist($genus);
@@ -26,27 +42,22 @@ class GenusController extends Controller
     }
 
     /**
-     * @Route("/genus/{genusName}")
+     * @Route("/genus/{genusName}", name="genus_show")
      */
     public function showAction($genusName)
     {
-        $funFact = 'Octopuses can change the color of their body in just *three-tenths* of a second!';
+        $genus = $this->getDoctrine()->getManager()
+            ->getRepository('AppBundle:Genus')
+            ->findOneBy([
+                'name' => $genusName,
+            ]);
 
-        $cache = $this->get('doctrine_cache.providers.my_markdown_cache');
-        $key = md5($funFact);
-        if ($cache->contains($key)) {
-            $funFact = $cache->fetch($key);
-        } else {
-            sleep(1); // fake how slow this could be
-            $funFact = $this->get('markdown.parser')
-               ->transform($funFact);
-            $cache->save($key, $funFact);
+        if (null === $genus) {
+            throw $this->createNotFoundException('No genus found');
         }
 
-
         return $this->render('genus/show.html.twig', array(
-            'name' => $genusName,
-            'funFact' => $funFact
+            'genus' => $genus
         ));
     }
 
