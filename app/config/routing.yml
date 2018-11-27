@@ -3,6 +3,6 @@ app:
     type:     annotation
 
 homepage:
-    path: '/'
+    path: /
     defaults:
         _controller: AppBundle:Main:homepage

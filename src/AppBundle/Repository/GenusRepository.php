@@ -1,18 +1,12 @@
 <?php
-/**
- * Created by PhpStorm.
- * User: vmary
- * Date: 22/11/2018
- * Time: 17:14
- */
 
 namespace AppBundle\Repository;
 
+use AppBundle\Entity\Genus;
 use Doctrine\ORM\EntityRepository;
 
 class GenusRepository extends EntityRepository
 {
-
     /**
      * @return Genus[]
      */
@@ -26,5 +20,4 @@ class GenusRepository extends EntityRepository
             ->getQuery()
             ->execute();
     }
-
 }

@@ -1,23 +1,19 @@
 <?php
-/**
- * Created by PhpStorm.
- * User: vmary
- * Date: 27/11/2018
- * Time: 12:11
- */
 
 namespace AppBundle\Repository;
 
-use Doctrine\ORM\EntityRepository;
-use AppBundle\Entity\GenusNote;
 use AppBundle\Entity\Genus;
+use AppBundle\Entity\GenusNote;
+use Doctrine\ORM\EntityRepository;
 
 class GenusNoteRepository extends EntityRepository
 {
     /**
+     * @param Genus $genus
      * @return GenusNote[]
      */
-    public function findAllRecentNotesForGenus(Genus $genus) {
+    public function findAllRecentNotesForGenus(Genus $genus)
+    {
         return $this->createQueryBuilder('genus_note')
             ->andWhere('genus_note.genus = :genus')
             ->setParameter('genus', $genus)
@@ -27,5 +23,4 @@ class GenusNoteRepository extends EntityRepository
             ->getQuery()
             ->execute();
     }
-
 }

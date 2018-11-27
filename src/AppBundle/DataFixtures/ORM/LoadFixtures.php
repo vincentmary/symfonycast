@@ -1,10 +1,5 @@
 <?php
-/**
- * Created by PhpStorm.
- * User: vmary
- * Date: 22/11/2018
- * Time: 16:33
- */
+
 namespace AppBundle\DataFixtures\ORM;
 
 use AppBundle\Entity\Genus;
@@ -14,23 +9,19 @@ use Nelmio\Alice\Fixtures;
 
 class LoadFixtures implements FixtureInterface
 {
-
-    /**
-     * Load data fixtures with the passed EntityManager
-     *
-     * @param ObjectManager $manager
-     */
     public function load(ObjectManager $manager)
     {
-        Fixtures::load(
-            __DIR__.'/fixture.yml',
+        $objects = Fixtures::load(
+            __DIR__.'/fixtures.yml',
             $manager,
             [
                 'providers' => [$this]
-            ]);
+            ]
+        );
     }
 
-    public function genus() {
+    public function genus()
+    {
         $genera = [
             'Octopus',
             'Balaena',

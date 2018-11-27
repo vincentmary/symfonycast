@@ -1,44 +1,34 @@
 <?php
-/**
- * Created by PhpStorm.
- * User: vmary
- * Date: 27/11/2018
- * Time: 15:18
- */
 
 namespace AppBundle\Twig;
 
-
-use AppBundle\Service\MarkDownTransformer;
+use AppBundle\Service\MarkdownTransformer;
 
 class MarkdownExtension extends \Twig_Extension
 {
+    private $markdownTransformer;
 
-    private $markDownTransformer;
-
-    public  function __construct(MarkDownTransformer $markDownTransformer)
+    public function __construct(MarkdownTransformer $markdownTransformer)
     {
-        $this->markDownTransformer = $markDownTransformer;
+        $this->markdownTransformer = $markdownTransformer;
     }
 
     public function getFilters()
     {
         return [
-            new \Twig_SimpleFilter('markdownify', [
-                $this,
-                'parseMarkdown'
+            new \Twig_SimpleFilter('markdownify', array($this, 'parseMarkdown'), [
+                'is_safe' => ['html']
             ])
         ];
     }
 
     public function parseMarkdown($str)
     {
-        return $this->markDownTransformer->parse($str);
+        return $this->markdownTransformer->parse($str);
     }
 
     public function getName()
     {
         return 'app_markdown';
     }
-
 }
