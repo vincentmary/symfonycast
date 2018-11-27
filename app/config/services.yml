@@ -4,8 +4,15 @@ parameters:
 #    parameter_name: value
 
 services:
-  _defaults:
-    autowire: false
+  app.markdown_transformer:
+    class: AppBundle\Service\MarkDownTransformer
+    arguments: ['@markdown.parser', '@doctrine_cache.providers.my_markdown_cache']
+
+  app.mardown_extension:
+    class: AppBundle\Twig\MarkdownExtension
+    tags:
+      - { name: twig.extension}
+    autowire: true
 #    service_name:
 #        class: AppBundle\Directory\ClassName
 #        arguments: ["@another_service_name", "plain_value", "%parameter_name%"]
