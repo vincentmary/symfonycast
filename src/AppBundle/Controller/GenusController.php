@@ -5,8 +5,7 @@ namespace AppBundle\Controller;
 use AppBundle\Entity\Genus;
 use AppBundle\Entity\GenusNote;
 use AppBundle\Service\MarkdownTransformer;
-use Sensio\Bundle\FrameworkExtraBundle\Configuration\Method;
-use Sensio\Bundle\FrameworkExtraBundle\Configuration\Route;
+use Symfony\Component\Routing\Annotation\Route;
 use Symfony\Bundle\FrameworkBundle\Controller\Controller;
 use Symfony\Component\HttpFoundation\JsonResponse;
 use Symfony\Component\HttpFoundation\Response;
@@ -67,7 +66,7 @@ class GenusController extends Controller
             throw $this->createNotFoundException('genus not found');
         }
 
-        $markdownTransformer = $this->get('app.markdown_transformer');
+        $markdownTransformer = $this->get(AppBundle\Service\MarkdownTransformer::class);
         $funFact = $markdownTransformer->parse($genus->getFunFact());
 
         $this->get('logger')
@@ -84,8 +83,7 @@ class GenusController extends Controller
     }
 
     /**
-     * @Route("/genus/{name}/notes", name="genus_show_notes")
-     * @Method("GET")
+     * @Route("/genus/{name}/notes", name="genus_show_notes", methods={"GET"})
      */
     public function getNotesAction(Genus $genus)
     {
