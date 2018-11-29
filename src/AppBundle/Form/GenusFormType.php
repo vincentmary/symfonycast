@@ -2,10 +2,14 @@
 
 namespace AppBundle\Form;
 
+use AppBundle\Entity\SubFamily;
+use AppBundle\Repository\SubFamilyRepository;
 use Symfony\Component\Form\AbstractType;
 use Symfony\Component\Form\FormBuilderInterface;
 use Symfony\Component\OptionsResolver\OptionsResolver;
 use Symfony\Component\Form\Extension\Core\Type\ChoiceType;
+use Symfony\Component\Form\Extension\Core\Type\DateType;
+use Symfony\Bridge\Doctrine\Form\Type\EntityType;
 
 class GenusFormType extends AbstractType
 {
@@ -13,8 +17,12 @@ class GenusFormType extends AbstractType
                               array $options)
     {
         $builder->add('name')
-            ->add('subFamily', null, [
-                'placeholder' => 'Choose a subFamily'
+            ->add('subFamily', EntityType::class, [
+                'class' => SubFamily::class,
+                'placeholder' => 'Choose a subFamily',
+                'query_builder' => function(SubFamilyRepository $repo) {
+                    return $repo->createAlphabeticalQueryBuilder();
+                }
             ])
             ->add('speciesCount')
             ->add('funFact')
@@ -24,7 +32,13 @@ class GenusFormType extends AbstractType
                     'No' => false
                 ]
             ])
-            ->add('firstDiscoveredAt');
+            ->add('firstDiscoveredAt', DateType::class, [
+                'widget' => 'single_text',
+                'attr' => [
+                    'class' => 'js-datepicker'
+                ],
+                'html5' => false,
+            ]);
     }
 
     public function configureOptions(OptionsResolver $resolver)

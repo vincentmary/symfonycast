@@ -6,6 +6,7 @@ use Symfony\Bundle\FrameworkBundle\Controller\Controller;
 use AppBundle\Form\GenusFormType;
 use Symfony\Component\Routing\Annotation\Route;
 use Symfony\Component\HttpFoundation\Request;
+use AppBundle\Entity\Genus;
 
 /**
  * @Route("/admin")
@@ -42,6 +43,31 @@ class GenusAdminController extends Controller
             $em->flush();
 
             $this->addFlash('success', 'Genus created!');
+
+            return $this->redirectToRoute('admin_genus_list');
+        }
+
+        return $this->render(':admin/genus:new.html.twig', [
+            'genusForm' => $form->createView()
+        ]);
+    }
+
+    /**
+     * @Route("/genus/{id}/edit", name="admin_genus_edit")
+     */
+    public function editAction(Request $request, Genus $genus)
+    {
+        $form = $this->createForm(GenusFormType::class, $genus);
+
+        $form->handleRequest($request);
+        if  ($form->isSubmitted() && $form->isValid()) {
+            $genus = $form->getData();
+
+            $em = $this->getDoctrine()->getManager();
+            $em->persist($genus);
+            $em->flush();
+
+            $this->addFlash('success', 'Genus updated!');
 
             return $this->redirectToRoute('admin_genus_list');
         }
