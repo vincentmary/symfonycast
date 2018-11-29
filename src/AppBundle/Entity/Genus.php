@@ -34,8 +34,7 @@ class Genus
 
     /**
      * @Assert\NotBlank()
-     * @Assert\Range(
-     *     min="0", minMessage="Negative species! Come on....")
+     * @Assert\Range(min=0, minMessage="Negative species! Come on...")
      * @ORM\Column(type="integer")
      */
     private $speciesCount;
@@ -65,6 +64,11 @@ class Genus
     public function __construct()
     {
         $this->notes = new ArrayCollection();
+    }
+
+    public function getId()
+    {
+        return $this->id;
     }
 
     public function getName()
@@ -102,7 +106,7 @@ class Genus
 
     public function getFunFact()
     {
-        return '**TEST** '.$this->funFact;
+        return $this->funFact;
     }
 
     public function setFunFact($funFact)
@@ -120,9 +124,6 @@ class Genus
         $this->isPublished = $isPublished;
     }
 
-    /**
-     * @return mixed
-     */
     public function getIsPublished()
     {
         return $this->isPublished;
@@ -145,14 +146,4 @@ class Genus
     {
         $this->firstDiscoveredAt = $firstDiscoveredAt;
     }
-
-    /**
-     * @return mixed
-     */
-    public function getId()
-    {
-        return $this->id;
-    }
-
-
 }

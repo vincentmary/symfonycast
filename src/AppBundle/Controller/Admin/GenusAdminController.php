@@ -2,11 +2,11 @@
 
 namespace AppBundle\Controller\Admin;
 
-use Symfony\Bundle\FrameworkBundle\Controller\Controller;
-use AppBundle\Form\GenusFormType;
-use Symfony\Component\Routing\Annotation\Route;
-use Symfony\Component\HttpFoundation\Request;
 use AppBundle\Entity\Genus;
+use AppBundle\Form\GenusFormType;
+use Sensio\Bundle\FrameworkExtraBundle\Configuration\Route;
+use Symfony\Bundle\FrameworkBundle\Controller\Controller;
+use Symfony\Component\HttpFoundation\Request;
 
 /**
  * @Route("/admin")
@@ -34,8 +34,9 @@ class GenusAdminController extends Controller
     {
         $form = $this->createForm(GenusFormType::class);
 
+        // only handles data on POST
         $form->handleRequest($request);
-        if  ($form->isSubmitted() && $form->isValid()) {
+        if ($form->isSubmitted() && $form->isValid()) {
             $genus = $form->getData();
 
             $em = $this->getDoctrine()->getManager();
@@ -47,7 +48,7 @@ class GenusAdminController extends Controller
             return $this->redirectToRoute('admin_genus_list');
         }
 
-        return $this->render(':admin/genus:new.html.twig', [
+        return $this->render('admin/genus/new.html.twig', [
             'genusForm' => $form->createView()
         ]);
     }
@@ -59,8 +60,9 @@ class GenusAdminController extends Controller
     {
         $form = $this->createForm(GenusFormType::class, $genus);
 
+        // only handles data on POST
         $form->handleRequest($request);
-        if  ($form->isSubmitted() && $form->isValid()) {
+        if ($form->isSubmitted() && $form->isValid()) {
             $genus = $form->getData();
 
             $em = $this->getDoctrine()->getManager();
@@ -72,7 +74,7 @@ class GenusAdminController extends Controller
             return $this->redirectToRoute('admin_genus_list');
         }
 
-        return $this->render(':admin/genus:new.html.twig', [
+        return $this->render('admin/genus/edit.html.twig', [
             'genusForm' => $form->createView()
         ]);
     }
