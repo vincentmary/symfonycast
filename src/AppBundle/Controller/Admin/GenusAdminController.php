@@ -4,7 +4,7 @@ namespace AppBundle\Controller\Admin;
 
 use AppBundle\Entity\Genus;
 use AppBundle\Form\GenusFormType;
-use Sensio\Bundle\FrameworkExtraBundle\Configuration\Route;
+use Symfony\Component\Routing\Annotation\Route;
 use Sensio\Bundle\FrameworkExtraBundle\Configuration\Security;
 use Symfony\Bundle\FrameworkBundle\Controller\Controller;
 use Symfony\Component\HttpFoundation\Request;
@@ -20,7 +20,6 @@ class GenusAdminController extends Controller
      */
     public function indexAction()
     {
-
         $genuses = $this->getDoctrine()
             ->getRepository('AppBundle:Genus')
             ->findAll();
@@ -46,7 +45,10 @@ class GenusAdminController extends Controller
             $em->persist($genus);
             $em->flush();
 
-            $this->addFlash('success', sprintf('Genus created! You %s are amazing!!', $this->getUser()->getEmail()));
+            $this->addFlash(
+                'success',
+                sprintf('Genus created by you: %s!', $this->getUser()->getEmail())
+            );
 
             return $this->redirectToRoute('admin_genus_list');
         }
@@ -72,9 +74,19 @@ class GenusAdminController extends Controller
             $em->persist($genus);
             $em->flush();
 
-            $this->addFlash('success', 'Genus updated!');
+            $this->addFlash(
+                'success',
+                $this->get('app.encouraging_message_generator')->getMessage()
+            );
 
-            return $this->redirectToRoute('admin_genus_list');
+            return $this->redirectToRoute('admin_genus_edit', [
+                'id' => $genus->getId()
+            ]);
+        }  elseif ($form->isSubmitted()) {
+            $this->addFlash(
+                'error',
+                $this->get('app.discouraging_message_generator')->getMessage()
+            );
         }
 
         return $this->render('admin/genus/edit.html.twig', [

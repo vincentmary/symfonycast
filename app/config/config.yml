@@ -25,6 +25,7 @@ framework:
         #assets_version: SomeVersionScheme
     default_locale:  "%locale%"
     trusted_hosts:   ~
+    trusted_proxies: ~
     session:
         # handler_id set to null will use default session handler from php.ini
         handler_id:  ~
@@ -41,6 +42,7 @@ twig:
         thousands_separator: ','
     form_themes:
         - bootstrap_3_layout.html.twig
+        - _formTheme.html.twig
 
 # Doctrine Configuration
 doctrine:
@@ -67,6 +69,12 @@ doctrine:
 doctrine_cache:
     providers:
         my_markdown_cache:
-            type: "%cache_type%"
+            type: %cache_type%
             file_system:
-                directory: "%kernel.cache_dir%/markdown_cache"
+                directory: %kernel.cache_dir%/markdown_cache
+
+stof_doctrine_extensions:
+    default_locale: en_US
+    orm:
+        default:
+            sluggable: true

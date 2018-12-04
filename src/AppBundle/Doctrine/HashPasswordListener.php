@@ -1,34 +1,19 @@
 <?php
-/**
- * Created by PhpStorm.
- * User: vmary
- * Date: 03/12/2018
- * Time: 17:32
- */
 
 namespace AppBundle\Doctrine;
 
 use AppBundle\Entity\User;
 use Doctrine\Common\EventSubscriber;
 use Doctrine\ORM\Event\LifecycleEventArgs;
-use Symfony\Component\Security\Core\Encoder\UserPasswordEncoderInterface;
+use Symfony\Component\Security\Core\Encoder\UserPasswordEncoder;
 
 class HashPasswordListener implements EventSubscriber
 {
-    /**
-     * @var Symfony\Component\Security\Core\Encoder\UserPasswordEncoder
-     */
-    private $userPasswordEncoder;
+    private $passwordEncoder;
 
-    public function __construct(UserPasswordEncoderInterface $userPasswordEncoder)
+    public function __construct(UserPasswordEncoder $passwordEncoder)
     {
-
-        $this->userPasswordEncoder = $userPasswordEncoder;
-    }
-
-    public function getSubscribedEvents()
-    {
-        return ['prePersist', 'preUpdate'];
+        $this->passwordEncoder = $passwordEncoder;
     }
 
     public function prePersist(LifecycleEventArgs $args)
@@ -50,13 +35,19 @@ class HashPasswordListener implements EventSubscriber
 
         $this->encodePassword($entity);
 
+        // necessary to force the update to see the change
         $em = $args->getEntityManager();
         $meta = $em->getClassMetadata(get_class($entity));
         $em->getUnitOfWork()->recomputeSingleEntityChangeSet($meta, $entity);
     }
 
+    public function getSubscribedEvents()
+    {
+        return ['prePersist', 'preUpdate'];
+    }
+
     /**
-     * @param $entity
+     * @param User $entity
      */
     private function encodePassword(User $entity)
     {
@@ -64,7 +55,7 @@ class HashPasswordListener implements EventSubscriber
             return;
         }
 
-        $encoded = $this->userPasswordEncoder->encodePassword(
+        $encoded = $this->passwordEncoder->encodePassword(
             $entity,
             $entity->getPlainPassword()
         );
