@@ -11,8 +11,10 @@ use Symfony\Bundle\FrameworkBundle\Controller\Controller;
 use Symfony\Component\HttpFoundation\JsonResponse;
 use Symfony\Component\HttpFoundation\Response;
 
+
 class GenusController extends Controller
 {
+
     /**
      * @Route("/genus/new")
      */
@@ -74,15 +76,15 @@ class GenusController extends Controller
     /**
      * @Route("/genus/{slug}", name="genus_show")
      */
-    public function showAction(Genus $genus)
+    public function showAction(Genus $genus, MarkdownTransformer $markdownTransformer)
     {
         $em = $this->getDoctrine()->getManager();
 
-        $markdownTransformer = $this->get('app.markdown_transformer');
         $funFact = $markdownTransformer->parse($genus->getFunFact());
 
         $this->get('logger')
             ->info('Showing genus: '.$genus->getName());
+
 
         $recentNotes = $em->getRepository('AppBundle:GenusNote')
             ->findAllRecentNotesForGenus($genus);

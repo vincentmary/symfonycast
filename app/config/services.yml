@@ -4,30 +4,30 @@ parameters:
 #    parameter_name: value
 
 services:
-    app.markdown_transformer:
-        class: AppBundle\Service\MarkdownTransformer
-        arguments: ['@markdown.parser', '@doctrine_cache.providers.my_markdown_cache']
 
-    app.markdown_extension:
-        class: AppBundle\Twig\MarkdownExtension
-        tags:
-            - { name: twig.extension }
-        #arguments: ['@app.markdown_transformer']
+    _defaults:
         autowire: true
+        autoconfigure: true
+        public: true
 
-    app.security.login_form_authenticator:
-        class: AppBundle\Security\LoginFormAuthenticator
-        autowire: true
+    AppBundle\:
+        resource: '../../src/AppBundle/*'
+        exclude: '../../src/AppBundle/{Entity,Repository}'
 
-    app.doctrine.hash_password_listener:
-        class: AppBundle\Doctrine\HashPasswordListener
-        autowire: true
+    AppBundle\Controller\:
+        resource: '../../src/AppBundle/Controller'
+        public: true
+        tags: ['controller.service_arguments']
+
+    AppBundle\Service\MarkdownTransformer:
+        arguments:
+            $cache: '@doctrine_cache.providers.my_markdown_cache'
+
+    AppBundle\Doctrine\HashPasswordListener:
         tags:
             - { name: doctrine.event_subscriber }
 
-    app.form.help_form_extenion:
-        class: AppBundle\Form\TypeExtension\HelpFormExtension
-        autowire: true
+    AppBundle\Form\TypeExtension\HelpFormExtension:
         tags:
             - { name: form.type_extension, extended_type: Symfony\Component\Form\Extension\Core\Type\FormType }
 
@@ -35,8 +35,10 @@ services:
         class: AppBundle\Service\MessageGenerator
         arguments:
             - ['You can do it!', 'Dude, sweet!', 'Woot!']
+        public: true
 
     app.discouraging_message_generator:
         class: AppBundle\Service\MessageGenerator
         arguments:
             - ['We are *never* going to figure this out', 'Why even try again?', 'Facepalm']
+        public: true
